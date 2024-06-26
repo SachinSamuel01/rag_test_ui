@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Oval, RotatingLines, TailSpin } from "react-loader-spinner";
 import "./App.css";
 
-const base_url = "https://smartai-demo.onrender.com"; //"https://refined-magnetic-buck.ngrok-free.app";
-//const base_url = "https://refined-magnetic-buck.ngrok-free.app";
+//const base_url = "https://smartai-demo.onrender.com";
+const base_url = "https://refined-magnetic-buck.ngrok-free.app";
 function App() {
   const [text, setText] = useState("");
   const [textQuery, setTextQuery] = useState("");
